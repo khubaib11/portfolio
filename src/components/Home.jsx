@@ -33,7 +33,7 @@ export default function Home() {
           <a className="bg-purple-500 hover:bg-purple-700 text-white px-6 py-3 rounded-md text-center w-full sm:w-auto" href="mailto:khankhubaib089@gmail.com">
             Contact Me
           </a>
-          <a className="bg-white hover:bg-gray-300 text-purple-500 px-6 py-3 rounded-md text-center w-full sm:w-auto" target="_blank" href="https://drive.google.com/file/d/13N9n97c_67GCBk2bgFjFxc7hyFkPI738/view?usp=sharing">
+          <a className="bg-white hover:bg-gray-300 text-purple-500 px-6 py-3 rounded-md text-center w-full sm:w-auto" target="_blank" href="https://drive.google.com/file/d/1fRvfYVL9RUzkXO4Ave-thFfahNbBGRGB/view?usp=sharing">
             Download CV
           </a>
         </div>

@@ -1,8 +1,57 @@
 import React from 'react'
-import courses from "../data/courseData.json";
-
+import c0 from "/img/c0.png";
+import c1 from "/img/c1.png";
+import c2 from "/img/c2.jpeg";
+import c3 from "/img/c3.jpeg";
+import c4 from "/img/c4.jpeg";
+import c5 from "/img/c5.png";
 export default function Courses() {
 
+  const courses = [
+    {
+        "id":1,
+        "name":"Developing Back-End Apps with Node.js and Express",
+        "description":"Skills: NodeJS, back-end,Web Development,express",
+        "link":"https://www.coursera.org/account/accomplishments/certificate/VULT8LFCH8RH",
+        "img":c0
+    },
+    {
+        "id":2,
+        "name":"Database Structures and Management with MySQL",
+        "description":"Skills: DBMS, DA, Data Management, MySQL",
+        "link":"https://www.coursera.org/account/accomplishments/certificate/XY4QX92QXRZ3",
+        "img":c1
+    },
+    {
+        "id":3,
+        "name":"Git for Developers Using Github",
+        "description":"Skills: Version Control, Github, Developer tools, GIT",
+        "link":"https://www.coursera.org/account/accomplishments/certificate/DKSC9J68GPXU",
+        "img":c2
+    },  
+    {
+        "id":4,
+        "name":"Introduction to Back-End Development",
+        "description":"Skills: HTML, CSS, JavaScript,React, APIs",
+        "link":"https://www.coursera.org/account/accomplishments/certificate/5866Q9TZCS6N",
+        "img":c3
+    },
+    {
+        "id":5,
+        "name":"Writing and Editing: Structure and Organization",
+        "description":"Skills: Creativity,Time management,Persuasion,Writing",
+        "link":"https://www.coursera.org/account/accomplishments/certificate/8N8JPPSZM6S3",
+        "img":c4
+    },
+    {
+        "id":6,
+        "name":"Introduction to MongoDB",
+        "description":"Skills: MongoDB Crud,Mongoose,NodeJS,MongoDB Aggregation",
+        "link":"https://ti-user-certificates.s3.amazonaws.com/ae62dcd7-abdc-4e90-a570-83eccba49043/586d5f6d-2f3c-417c-b169-37ab01c9966d-khubaib-khan-bcb87934-3d70-4c5b-8963-3197845848d2-certificate.pdf",
+        "img":c5
+    }
+    
+]
   return (
     <div className="container mx-auto px-4 py-8">
       <h2 className="text-3xl font-bold text-center  text-white mt-30 mb-20"> Courses & Certifications</h2>
